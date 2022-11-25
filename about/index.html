@@ -33,11 +33,7 @@
 
 </head>
 
-<script>
-  document.querySelector(".menu-icon").addEventListener("click", function () {
-    this.parentElement.classList.toggle("close");
-  });
-</script>
+
 
 <body>
   <header>
@@ -65,6 +61,13 @@
   </main>
 
   <script>
+    document.querySelector(".menu-icon").addEventListener("click", function () {
+      this.parentElement.classList.toggle("close");
+    });
+  </script>
+
+  <script>
+
     const header = document.querySelector("header");
 
     document.querySelector(".menu-icon").addEventListener("click", () => {

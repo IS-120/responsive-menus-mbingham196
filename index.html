@@ -30,11 +30,7 @@
   <link rel="stylesheet" href="styles/main.css">
 </head>
 
-<script>
-  document.querySelector(".menu-icon").addEventListener("click", function () {
-    this.parentElement.classList.toggle("close");
-  });
-</script>
+
 
 <body>
   <section class="hero">
@@ -139,6 +135,12 @@
   <footer>
     <p>Matthew Bingham &copy; 2022</p>
   </footer>
+
+  <script>
+    document.querySelector(".menu-icon").addEventListener("click", function () {
+      this.parentElement.classList.toggle("close");
+    });
+  </script>
 
   <script>
     const header = document.querySelector("header");
